@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0.8px"
+    android:verticalGap="3px"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:keyOutputText="𑇑" android:keyLabel="𑇑" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="𑇒" android:keyLabel="𑇒"/>
+        <Key android:keyOutputText="𑇓" android:keyLabel="𑇓"/>
+        <Key android:keyOutputText="𑇔" android:keyLabel="𑇔"/>
+        <Key android:keyOutputText="𑇕" android:keyLabel="𑇕"/>
+        <Key android:keyOutputText="𑇖" android:keyLabel="𑇖"/>
+        <Key android:keyOutputText="𑇗" android:keyLabel="𑇗"/>
+        <Key android:keyOutputText="𑇘" android:keyLabel="𑇘"/>
+        <Key android:keyOutputText="𑇙" android:keyLabel="𑇙"/>
+        <Key android:keyOutputText="𑇐" android:keyLabel="𑇐" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="𑆃" android:keyLabel="𑆃" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="𑆄" android:keyLabel="𑆄"/>
+        <Key android:keyOutputText="𑆅" android:keyLabel="𑆅"/>
+        <Key android:keyOutputText="𑆆" android:keyLabel="𑆆"/>
+        <Key android:keyOutputText="𑆇" android:keyLabel="𑆇"/>
+        <Key android:keyOutputText="𑆈" android:keyLabel="𑆈"/>
+        <Key android:keyOutputText="𑆍" android:keyLabel="𑆍"/>
+        <Key android:keyOutputText="𑆎" android:keyLabel="𑆎"/>
+        <Key android:keyOutputText="𑆏" android:keyLabel="𑆏"/>
+        <Key android:keyOutputText="𑆐" android:keyLabel="𑆐" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="𑆉" android:keyLabel="𑆉" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="𑆊" android:keyLabel="𑆊"/>
+        <Key android:keyOutputText="𑆋" android:keyLabel="𑆋"/>
+        <Key android:keyOutputText="𑆌" android:keyLabel="𑆌"/>
+        <Key android:keyOutputText="𑆯" android:keyLabel="𑆯"/>
+        <Key android:keyOutputText="𑆰" android:keyLabel="𑆰"/>
+        <Key android:keyOutputText="𑆱" android:keyLabel="𑆱"/>
+        <Key android:keyOutputText="𑆲" android:keyLabel="𑆲"/>
+        <Key android:keyOutputText="𑆀" android:keyLabel="𑆀"/>
+        <Key android:keyOutputText="𑇍" android:keyLabel="𑇍" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="𑆃𑆂" android:keyLabel="𑆃𑆂" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="𑆃𑇋" android:keyLabel="𑆃𑇋"/>
+        <Key android:keyOutputText="𑆠𑇀𑆫" android:keyLabel="𑆠𑇀𑆫"/>
+        <Key android:keyOutputText="𑆑𑇀𑆰" android:keyLabel="𑆑𑇀𑆰"/>
+        <Key android:keyOutputText="𑇁" android:keyLabel="𑇁"/>
+        <Key android:keyOutputText=" 𑆸" android:keyLabel=" 𑆸"/>
+        <Key android:keyOutputText=" 𑆹" android:keyLabel=" 𑆹"/>
+        <Key android:keyOutputText=" 𑆺" android:keyLabel=" 𑆺"/>
+        <Key android:keyOutputText=" 𑆻" android:keyLabel=" 𑆻"/>
+        <Key android:keyOutputText="𑆘𑇀𑆚" android:keyLabel="𑆘𑇀𑆚" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyOutputText="KEYCODE_SHIFT" android:keyWidth="10%p" android:keyLabel="⇧" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText=" 𑇊" android:keyLabel=" 𑇊"/>
+        <Key android:keyOutputText=" 𑇋" android:keyLabel=" 𑇋"/>
+        <Key android:keyOutputText="𑇌" android:keyLabel="𑇌"/>
+        <Key android:keyOutputText="𑇈" android:keyLabel="𑇈"/>
+        <Key android:keyOutputText="𑇝" android:keyLabel="𑇝"/>
+        <Key android:keyOutputText="'" android:keyLabel="'"/>
+        <Key android:keyOutputText="𑇚" android:keyLabel="𑇚"/>
+        <Key android:keyOutputText="𑆁" android:keyLabel="𑆁"/>
+        <Key android:keyOutputText="𑆂" android:keyLabel="𑆂" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
