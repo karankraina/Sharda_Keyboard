@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Sharda Keyboard</string>
     <string name="fast_input_label">Sharda Keyboard</string>
+    <string name="title_activity_main">MainActivity</string> 
 </resources>
