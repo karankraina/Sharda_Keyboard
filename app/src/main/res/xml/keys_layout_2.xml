@@ -54,7 +54,7 @@
         <Key android:keyOutputText="𑆘𑇀𑆚" android:keyLabel="𑆘𑇀𑆚" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyOutputText="KEYCODE_SHIFT" android:keyWidth="10%p" android:keyLabel="⇧" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="KEYCODE_SHIFT" android:keyWidth="10%p" android:keyLabel="⇧" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:keyOutputText=" 𑇊" android:keyLabel=" 𑇊"/>
         <Key android:keyOutputText=" 𑇋" android:keyLabel=" 𑇋"/>
         <Key android:keyOutputText="𑇌" android:keyLabel="𑇌"/>

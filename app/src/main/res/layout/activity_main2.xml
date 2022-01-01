@@ -10,25 +10,34 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="341dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="342dp"
+        android:layout_marginTop="50dp"
         android:onClick="onClick"
         android:text="Enable Sharda Keyboard"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="TextView"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="39dp"
-        tools:text="Namaskar" />
+        android:fontFamily="@font/satisar_font"
+        android:text="𑆤𑆩𑆱𑇀𑆑𑆳𑆫"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:lines="10"
+        android:text="Welcome to Sharda Android Keyboard.\n\nYour phone may require it to be enabled as a trusted input method before you could use it. \n \n For any suggestion, reach out to me @karankraina / @shardapeetham on Twitter, Facebook or Instagram."
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.karanraina.shardakeyboard.ShardaKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/keyboard_view"
+    android:fontFamily="@font/satisar_font"
+    android:font="@font/satisar_font"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
@@ -10,6 +12,6 @@
     android:keyPreviewOffset="12dp"
     android:keyPreviewLayout="@layout/keyboard_preview"
     android:visibility="visible"
-    android:labelTextSize="20sp"
+    android:labelTextSize="0sp"
     >
-</android.inputmethodservice.KeyboardView>
+</com.karanraina.shardakeyboard.ShardaKeyboardView>

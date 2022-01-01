@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View v) {
+//        Navigate to Input Method Selection in Settings
         startActivityForResult(new Intent(android.provider.Settings.ACTION_INPUT_METHOD_SETTINGS), 0);        }
 }

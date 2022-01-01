@@ -1,29 +1,40 @@
 package com.karanraina.shardakeyboard;
 
 import android.content.res.Resources;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.KeyEvent;
-import android.view.KeyboardShortcutGroup;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
+import android.widget.TextView;
+
+import java.util.List;
+
 
 public class MyInputMethodService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
-    private KeyboardView keyboardView;
+    private ShardaKeyboardView keyboardView;
     private Keyboard keyboard1;
     private Keyboard keyboard2;
 
-    private boolean caps = false;
+
+    private boolean caps = true;
 
     @Override
     public View onCreateInputView() {
-        keyboardView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view, null);
+//        this.setTheme(R.style.AppTheme);
+        keyboardView = (ShardaKeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view, null);
+
         keyboard1 = new Keyboard(this, R.xml.keys_layout_1);
         keyboard2 = new Keyboard(this, R.xml.keys_layout_2);
+
+//        preview =
+
         keyboardView.setKeyboard(keyboard1);
         keyboardView.setPreviewEnabled(true);
         keyboardView.setOnKeyboardActionListener(this);
@@ -39,8 +50,6 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     public void onRelease(int i) {
 
     }
-
-
 
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {

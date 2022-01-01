@@ -53,7 +53,7 @@
         <Key android:keyOutputText="KEYCODE_DELETE" android:keyLabel="del" android:keyWidth="20%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyOutputText="KEYCODE_SHIFT" android:keyWidth="10%p" android:keyLabel="⇧" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="KEYCODE_SHIFT" android:keyWidth="10%p" android:keyLabel="⇧" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:keyOutputText="𑇀" android:keyLabel="𑇀" android:keyWidth="10%p" />
         <Key android:keyOutputText=" " android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:keyOutputText="𑆿" android:keyLabel="𑆿" android:keyWidth="10%p" />
